@@ -1,0 +1,10 @@
+2014-03-20 02:23:59.0042 ERROR System.MethodAccessException: 安全透明方法“ICSharpCode.SharpZipLib.ShowSelectedInExplorer+NativeMethods.SHGetDesktopFolder()”尝试通过方法“ICSharpCode.SharpZipLib.ShowSelectedInExplorer+NativeMethods.SHGetDesktopFolder_(IShellFolder ByRef)”调用本机代码失败。方法必须是安全关键的或安全可靠关键的，才能调用本机代码。
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.NativeMethods.SHGetDesktopFolder() 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 115
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.PathToAbsolutePIDL(String path) 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 152
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.FileOrFolder(String path, Boolean edit) 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 186
+   在 vpkutils.InfoPage.Btn_SrcView_Click(Object sender, RoutedEventArgs e) 位置 C:\WorkTemp\vpkutils\vpkutils\InfoPage.xaml.vb:行号 99
+2014-03-20 02:27:14.7899 ERROR System.MethodAccessException: 安全透明方法“ICSharpCode.SharpZipLib.ShowSelectedInExplorer+NativeMethods.SHGetDesktopFolder()”尝试通过方法“ICSharpCode.SharpZipLib.ShowSelectedInExplorer+NativeMethods.SHGetDesktopFolder_(IShellFolder ByRef)”调用本机代码失败。方法必须是安全关键的或安全可靠关键的，才能调用本机代码。
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.NativeMethods.SHGetDesktopFolder() 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 115
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.PathToAbsolutePIDL(String path) 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 152
+   在 ICSharpCode.SharpZipLib.ShowSelectedInExplorer.FileOrFolder(String path, Boolean edit) 位置 c:\WorkTemp\vpkutils\SharpZipLib_mod\src\ShowSelectedInExplorer.cs:行号 186
+   在 vpkutils.InfoPage.Btn_SrcView_Click(Object sender, RoutedEventArgs e) 位置 C:\WorkTemp\vpkutils\vpkutils\InfoPage.xaml.vb:行号 101
